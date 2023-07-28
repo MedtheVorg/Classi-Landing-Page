@@ -12,9 +12,9 @@ const Footer = () => {
     <footer className="bg-black text-white">
       <div className="max-w-[1280px] mx-auto">
         {/* register form */}
-        <div className="discount flex flex-col md:flex-row items-center  py-24 px-8 gap-36 border-b-[1px] border-b-white">
+        <div className="discount flex flex-col md:flex-row  py-24  gap-36 border-b-[1px] border-b-white">
           {/* content */}
-          <div className="info  lg:p-8 lg:p16 flex flex-col gap-4 flex-1 text-center">
+          <div className="info  lg:p-16 flex flex-col gap-4 flex-1 text-center px-8">
             <h2 className="uppercase text-3xl md:text-4xl  font-light  ">
               get 20% discount on your first purchase
             </h2>
@@ -163,11 +163,13 @@ const Footer = () => {
           </p>
           <p className="leading-6">
             Designed By TemplatesJungle <br />
-            and Coded by{' '}
-            <a href="https://github.com/MedtheVorg" target="_blanck">
-              <div className="inline-flex items-center gap-2 underline">
-                <ImGithub /> Mohamed Lem
-              </div>
+            and Coded by
+            <a
+              href="https://github.com/MedtheVorg"
+              target="_blanck"
+              className="inline-flex items-center gap-2 underline mx-2"
+            >
+              <ImGithub /> Mohamed Lem
             </a>
           </p>
         </div>

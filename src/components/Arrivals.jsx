@@ -8,11 +8,11 @@ const Arrivals = () => {
       <div className="max-w-[1280px] mx-auto">
         <h2 className="capitalize font-medium text-2xl p-4">new arrivals</h2>
         {/* wrapper */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 grid-rows-1 gap-6 lg:gap-16 ">
+        <div className="grid grid-cols-2 sm:grid-cols-3 grid-rows-1 gap-2 lg:gap-16 ">
           {/* card */}
           <div className="p-4 flex flex-col">
             <img src={img1} alt="" className="object-cover flex-1" />
-            <div className="flex items-center justify-between p-2 py-6 text-sm lg:text-base">
+            <div className="flex items-center justify-between p-2 py-6 text-xs  gap-x-2  md:text-base">
               <p className="capitalize font-normal">study table set</p>
               <p className="text-[#AEACA9]">$120.00</p>
             </div>
@@ -20,7 +20,7 @@ const Arrivals = () => {
           {/* card */}
           <div className="p-4 flex flex-col">
             <img src={img2} alt="" className="object-cover flex-1" />
-            <div className="flex items-center justify-between p-2 py-6 text-sm lg:text-base">
+            <div className="flex items-center justify-between p-2 py-6 text-xs  gap-x-2 md:text-base">
               <p className="capitalize font-normal">study table set</p>
               <p className="text-[#AEACA9]">$120.00</p>
             </div>
@@ -28,7 +28,7 @@ const Arrivals = () => {
           {/* card */}
           <div className="p-4 flex flex-col">
             <img src={img3} alt="" className="object-cover  flex-1" />
-            <div className="flex items-center justify-between p-2 py-6 gap text-sm lg:text-base">
+            <div className="flex items-center justify-between p-2 py-6 gap text-xs  gap-x-2  md:text-base">
               <p className="capitalize font-normal">study table set</p>
               <p className="text-[#AEACA9]">$120.00</p>
             </div>

@@ -88,10 +88,10 @@ const Slider = () => {
           transition={transition1}
           className="flex flex-col justify-center items-center gap-y-4  justify-self-center  place-self-end "
         >
-          <h1 className="font-bold uppercase text-7xl lg:text-9xl xl:text-[14rem]">
+          <h1 className="font-bold uppercase text-5xl md:text-7xl lg:text-9xl  xl:text-[10rem]">
             {items[currentSlide].mainText}
           </h1>
-          <p className="text-white/60 uppercase lg:tracking-[0.5rem]">
+          <p className="text-white/60 uppercase text-sm lg:tracking-[0.5rem]">
             {items[currentSlide].secondaryText}
           </p>
           <button className="font-medium uppercase px-10 py-2 border-2 border-white rounded-sm mt-20 transition-colors duration-300 hover:bg-white hover:text-black/80">

@@ -18,23 +18,24 @@ const Header = () => {
   }
   return (
     <header
-      className={`fixed top-0 left-0 w-full font-primary  z-10  transition-all duration-300   shadow-md  ${
-        scrollPosition > 100
-          ? 'h-[60px] bg-white text-black p-4 '
-          : 'h-[100px] text-white p-12 '
+      className={`fixed top-0 left-0 w-full font-primary  z-10  transition-all duration-300   shadow-xl ${
+        scrollPosition > 100 ? ' bg-white text-black p-4 ' : ' text-white p-5  '
       }`}
     >
       {/* wrapper */}
-      <div className="wrapper  h-full flex flex-row items-center justify-between gap-x-16   ">
+      <div className="wrapper  h-full flex flex-row items-center justify-between gap-x-16 max-w-[1280px] mx-auto   ">
         <div className="logo ">
-          <a href="/" className="font-secondary text-3xl">
+          <a
+            href="/"
+            className="font-secondary text-2xl sm:text-3xl font-normal"
+          >
             CLASSI.
           </a>
         </div>
         <div className="hidden lg:flex flex-row items-center justify-between flex-1 px-8 ">
           {/* navigation links */}
           <nav>
-            <ul className="flex items-center gap-x-12 uppercase font-semibold text-sm tracking-widest">
+            <ul className="flex items-center gap-x-12 uppercase font-normal text-sm tracking-widest">
               <li>
                 <a href="#">home</a>
               </li>
