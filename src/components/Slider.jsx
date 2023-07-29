@@ -12,17 +12,17 @@ import { GoDotFill } from 'react-icons/go';
 import { motion } from 'framer-motion';
 const items = [
   {
-    img: img1,
+    img: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
     mainText: 'comfort',
     secondaryText: 'classi spells class and comfort',
   },
   {
-    img: img2,
+    img: 'https://images.unsplash.com/photo-1554941829-fcef7b298d5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
     mainText: 'Quality',
     secondaryText: 'classi spells class and quality',
   },
   {
-    img: img3,
+    img: 'https://images.unsplash.com/photo-1611306133964-f06d181327fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
     mainText: 'Affordable',
     secondaryText: 'classi spells class and Affordable',
   },
