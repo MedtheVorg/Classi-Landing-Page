@@ -16,7 +16,7 @@ npm run dev
 ```
 
 ## live demo
-https://classi-landing-page.vercel.app/
+[https://classi-landing-page.vercel.app/](https://classilandingpage.vercel.app/)
 
 
 ## Project Show Case
